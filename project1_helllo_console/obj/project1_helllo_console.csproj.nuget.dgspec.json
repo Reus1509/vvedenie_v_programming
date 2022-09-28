@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\СмартАптека\\Desktop\\edu_programming\\study_projects\\project1_helllo_console\\project1_helllo_console.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\СмартАптека\\Desktop\\edu_programming\\study_projects\\project1_helllo_console\\project1_helllo_console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\СмартАптека\\Desktop\\edu_programming\\study_projects\\project1_helllo_console\\project1_helllo_console.csproj",
+        "projectName": "project1_helllo_console",
+        "projectPath": "C:\\Users\\СмартАптека\\Desktop\\edu_programming\\study_projects\\project1_helllo_console\\project1_helllo_console.csproj",
+        "packagesPath": "C:\\Users\\СмартАптека\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\СмартАптека\\Desktop\\edu_programming\\study_projects\\project1_helllo_console\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\СмартАптека\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

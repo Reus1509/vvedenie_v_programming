@@ -1,0 +1,15 @@
+C:\Users\СмартАптека\Desktop\edu_programming\study_projects\project1_helllo_console\bin\Debug\net6.0\project1_helllo_console.exe
+C:\Users\СмартАптека\Desktop\edu_programming\study_projects\project1_helllo_console\bin\Debug\net6.0\project1_helllo_console.deps.json
+C:\Users\СмартАптека\Desktop\edu_programming\study_projects\project1_helllo_console\bin\Debug\net6.0\project1_helllo_console.runtimeconfig.json
+C:\Users\СмартАптека\Desktop\edu_programming\study_projects\project1_helllo_console\bin\Debug\net6.0\project1_helllo_console.dll
+C:\Users\СмартАптека\Desktop\edu_programming\study_projects\project1_helllo_console\bin\Debug\net6.0\project1_helllo_console.pdb
+C:\Users\СмартАптека\Desktop\edu_programming\study_projects\project1_helllo_console\obj\Debug\net6.0\project1_helllo_console.csproj.AssemblyReference.cache
+C:\Users\СмартАптека\Desktop\edu_programming\study_projects\project1_helllo_console\obj\Debug\net6.0\project1_helllo_console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\СмартАптека\Desktop\edu_programming\study_projects\project1_helllo_console\obj\Debug\net6.0\project1_helllo_console.AssemblyInfoInputs.cache
+C:\Users\СмартАптека\Desktop\edu_programming\study_projects\project1_helllo_console\obj\Debug\net6.0\project1_helllo_console.AssemblyInfo.cs
+C:\Users\СмартАптека\Desktop\edu_programming\study_projects\project1_helllo_console\obj\Debug\net6.0\project1_helllo_console.csproj.CoreCompileInputs.cache
+C:\Users\СмартАптека\Desktop\edu_programming\study_projects\project1_helllo_console\obj\Debug\net6.0\project1_helllo_console.dll
+C:\Users\СмартАптека\Desktop\edu_programming\study_projects\project1_helllo_console\obj\Debug\net6.0\refint\project1_helllo_console.dll
+C:\Users\СмартАптека\Desktop\edu_programming\study_projects\project1_helllo_console\obj\Debug\net6.0\project1_helllo_console.pdb
+C:\Users\СмартАптека\Desktop\edu_programming\study_projects\project1_helllo_console\obj\Debug\net6.0\project1_helllo_console.genruntimeconfig.cache
+C:\Users\СмартАптека\Desktop\edu_programming\study_projects\project1_helllo_console\obj\Debug\net6.0\ref\project1_helllo_console.dll
