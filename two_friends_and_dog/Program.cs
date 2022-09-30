@@ -1,5 +1,5 @@
-﻿int count = 0,  firstFriendSpeed = 1, secondFriendSpeed = 2, dogSpeed = 5, friend = 2;
-double distance = 10000, time = 0;
+﻿int count = 0,  firstFriendSpeed = 2, secondFriendSpeed = 4, dogSpeed = 6, friend = 2;
+double distance = 100000, time = 0;
 
 while(distance > 10)
 {
