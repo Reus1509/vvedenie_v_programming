@@ -1,4 +1,5 @@
-﻿Console.Write("Введите число: ");
+﻿Console.Clear();
+Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine());
 if(number > 1000 || number < 100)Console.Write("Вы ввели неправильное число!!!");
 else{

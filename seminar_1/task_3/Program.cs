@@ -1,4 +1,5 @@
-﻿Console.Write("Введите число: ");
+﻿Console.Clear();
+Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine());
 int a = number * -1;
 if(number < 0){
