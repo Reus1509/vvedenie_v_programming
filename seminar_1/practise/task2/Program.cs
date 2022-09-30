@@ -10,4 +10,3 @@ if(day == 4)Console.WriteLine("Сегодня четверг.");
 if(day == 5)Console.WriteLine("Сегодня пятница.");
 if(day == 6)Console.WriteLine("Сегодня суббота.");
 if(day == 7)Console.WriteLine("Сегодня воскресенье.");
-day++;
