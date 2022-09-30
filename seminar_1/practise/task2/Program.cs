@@ -1,8 +1,6 @@
 ﻿Console.Write("Введите число дня недели: ");
 int day = int.Parse(Console.ReadLine());
-if(day<1 || day>7){
-    Console.WriteLine("Вы ввели неправильное значение!");
-}
+if(day<1 || day>7)Console.WriteLine("Вы ввели неправильное значение!");
 if(day == 1)Console.WriteLine("Сегодня понедельник.");
 if(day == 2)Console.WriteLine("Сегодня вторник.");
 if(day == 3)Console.WriteLine("Сегодня среда.");
