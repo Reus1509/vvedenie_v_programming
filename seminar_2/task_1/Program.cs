@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// 11. Напишите программу, которая выводит случайное трёхзначное число и удаляет вторую цифру этого числа.
+// 456 -> 46
+// 782 -> 72
+// 918 -> 98
+// 12. Напишите программу, которая будет принимать на вход два числа и выводить, является ли второе число кратным первому. Если число 2 не кратно числу 1, то программа выводит остаток от деления.
+// 34, 5 -> не кратно, остаток 4 
+// 16, 4 -> кратно
+
+Console.Clear();
+int number = new Random().Next(100,1000);
+int first_symbol = number/100;
+int last_symbol = number%100;
+Console.WriteLine($"Число {number} сократилось до {first_symbol}{last_symbol}");
+
+
