@@ -32,12 +32,12 @@ void Method2(string msg, int rep)
 
 string Method3()
 {
-    string msg = Console.ReadLine();
+    string msg = Console.ReadLine()!;
     return msg;
 }
 int Method31()
 {
-    int rep = int.Parse(Console.ReadLine());
+    int rep = int.Parse(Console.ReadLine()!);
     return rep;
 }
 
