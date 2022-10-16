@@ -7,7 +7,7 @@
 void Main()
 {
     Console.Clear();
-    int[] array = NewArray(5);
+    int[] array = NewArray(6);
     WriteArray(array);
     Console.WriteLine();
     int[] finish = MultNum(array);
@@ -32,36 +32,36 @@ int[] MultNum(int[] array)
     if(array.Length % 2 != 0){
         for (int i = 0; i < array.Length/2 + 1; i++)
         {   
-        if(lastIndex==firstIndex){
-            result = array[firstIndex];
+            if(lastIndex==firstIndex){
+                result = array[firstIndex];
+            }
+            else{
+                 result = array[firstIndex] * array[lastIndex];
+            }
+                
+            firstIndex += 1;
+            lastIndex -= 1;
+            newArray[i] = result;
         }
-        else{
-            result = array[firstIndex] * array[lastIndex];
-        }
-        
-
-        firstIndex += 1;
-        lastIndex -= 1;
-        newArray[i] = result;
-        }
+        return newArray;
     }
     else{
-        for (int i = 0; i < array.Length/2; i++)
-    {   
-        if(lastIndex==firstIndex){
-            result = array[firstIndex];
-        }
-        else{
-            result = array[firstIndex] * array[lastIndex];
-        }
-        
+            for (int i = 0; i < array.Length/2; i++)
+            {   
+                if(lastIndex==firstIndex){
+                    result = array[firstIndex];
+                }
+                else{
+                    result = array[firstIndex] * array[lastIndex];
+                }
+                
 
-        firstIndex += 1;
-        lastIndex -= 1;
-        newArray[i] = result;
-    }
-    return newArray;
-    }
+                firstIndex += 1;
+                lastIndex -= 1;
+                newArray[i] = result;
+            }
+            return newArray;
+        }
     
 }
 
