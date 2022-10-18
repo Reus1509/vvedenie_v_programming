@@ -29,7 +29,6 @@ int[] InBinary(int number)
         a = number % 2;
         array[i] = a;
         i++;
-
         number = number / 2;
     }
     return array;
