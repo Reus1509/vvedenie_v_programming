@@ -1,16 +1,20 @@
 ﻿//  Задача 45: Напишите программу, которая будет создавать
 //   копию заданного массива с помощью поэлементного копирования.
-Console.Clear();
+void Main()
+{
+    Console.Clear();
 
-int[] array =new int[5];
-CreateArray(array);
-WriteArray(array);
-Console.WriteLine();
-int[] newArray = NewArray(array);
-array[0] = 2;
-WriteArray(array);
-Console.WriteLine();
-WriteArray(newArray);
+    int[] array =new int[5];
+    CreateArray(array);
+    WriteArray(array);
+    Console.WriteLine();
+    int[] newArray = NewArray(array);
+    array[0] = 2;
+    WriteArray(array);
+    Console.WriteLine();
+    WriteArray(newArray);
+}
+
 
 int[] CreateArray(int[] array){
     for (int i = 0; i < array.Length; i++)
@@ -36,3 +40,5 @@ void WriteArray(int[] array)
         Console.Write($"{array[i]} ");
     }
 }
+
+Main();

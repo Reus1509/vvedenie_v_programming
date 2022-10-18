@@ -4,9 +4,13 @@
 // Если N = 7 -> 0 1 1 2 3 5 8
 //  Задача 45: Напишите программу, которая будет создавать
 //   копию заданного массива с помощью поэлементного копирования.
-Console.Clear();
-int number = GetNumber();
-WriteArray(Fib(number));
+void Main()
+{
+    Console.Clear();
+    int number = GetNumber();
+    WriteArray(Fib(number));
+}
+
 
 
 int GetNumber()
@@ -41,3 +45,5 @@ void WriteArray(int[] arr)
         Console.Write($"{arr[i]} ");
     }
 }
+
+Main();
