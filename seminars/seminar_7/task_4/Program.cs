@@ -40,9 +40,9 @@ int DiaArray(int[,] arr)
     {
         for (int j = 0; j < arr.GetLength(1); j++)
         {
-            if(i == j)
+            if (i == j)
             {
-                result += arr[i,j];
+                result += arr[i, j];
             }
         }
     }
@@ -55,7 +55,7 @@ void PrintArray(int[,] inArray)
     {
         for (int j = 0; j < inArray.GetLength(1); j++)
         {
-            Console.Write($"{inArray[i,j]} ");
+            Console.Write($"{inArray[i, j]} ");
         }
         Console.WriteLine();
     }
