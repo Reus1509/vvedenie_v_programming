@@ -9,8 +9,8 @@ void Main()
     Console.Write("Введите количество столбцов: ");
     int columns = int.Parse(Console.ReadLine());
     int[,] array = NewArray(rows, columns);
-    int[,] newArray = SquadArray(array);
     PrintArray(array);
+    int[,] newArray = SquadArray(array);
     Console.WriteLine();
     PrintArray(newArray);
 }
