@@ -16,9 +16,6 @@ void PrintMassive(int [] array){
         count++;
     }
 }
-int IndexOf(int[] array){
-    
-}
 
 int[] array = new int[10];
 
